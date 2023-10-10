@@ -1,8 +1,6 @@
 # Questão 1
 ### Categorização de Trades em um Banco  
 Este projeto visa demonstrar o uso de padrões de design na categorização de trades em um banco. O problema consiste em categorizar trades com base em seu valor e no setor do cliente. Para isso, foram utilizados os seguintes padrões de design:
-### Padrão de Design Strategy
-O padrão de design Strategy foi utilizado para definir e encapsular algoritmos de categorização diferentes em classes separadas, permitindo que eles possam ser facilmente modificados, estendidos ou substituídos sem afetar o código existente. As regras de categorização, como LowRisk, MediumRisk e HighRisk, foram implementadas como estratégias que implementam a mesma interface ITradeCategorizationRule. Isso permite que novas regras sejam adicionadas no futuro sem a necessidade de alterar o código existente.
 ### Como Usar
 ### Para usar o sistema de categorização de trades, siga as etapas abaixo:
 
@@ -25,11 +23,9 @@ As regras de categorização são encapsuladas em classes separadas, facilitando
 
 Nesta questão, apresentamos uma solução procedural em T-SQL (SQL Server) para a categorização de trades com base em regras específicas. Aqui está como você pode usar esta solução:
 
-### Passo 1: Criar Tabelas
-
+### Como Usar
 Antes de começar, você precisará criar as tabelas necessárias para armazenar os trades e os resultados categorizados. 
-Você pode usar os seguintes arquivos SQL para criar as tabelas: Question 2\CREATE TABLE.sql
-Você pode usar os seguintes arquivos SQL para criar a Procedure: Question 2\CREATE PROCEDURE.sql
-Você deve usar os seguintes arquivos SQL para executar o exemplo: Question 2\execute the stored procedure.sql
+1. Você pode usar os seguintes arquivos SQL para criar as tabelas: Question 2\CREATE TABLE.sql
+2. Você pode usar os seguintes arquivos SQL para criar a Procedure: Question 2\CREATE PROCEDURE.sql
+3. Você deve usar os seguintes arquivos SQL para executar o exemplo: Question 2\execute the stored procedure.sql
 
-execute the stored procedure.sq
